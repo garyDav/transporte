@@ -1,0 +1,146 @@
+
+.datagridHorario table { border-collapse: collapse; text-align: left; width: 100%; }
+.datagridHorario {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #000000; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.datagridHorario table td, .datagridHorario table th { padding: 3px 10px; }
+.datagridHorario table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #0083C4) );background:-moz-linear-gradient( center top, #000000 5%, #0083C4 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#0083C4');background-color:#000000; color:#FFFFFF; font-size: 11px; font-weight: bold; border-left: 1px solid #FFFFFF; }
+.datagridHorario table thead th:first-child { border: none; }
+.datagridHorario table tbody td { color: #000508; border-left: 1px solid #7D8487;font-size: 12px;border-bottom: 1px solid #000000;font-weight: normal; }
+.datagridHorario table tbody td:first-child { border-left: none; }
+.datagridHorario table tbody tr:last-child td { border-bottom: none; }
+.datagridHorario table tfoot td div { border-top: 1px solid #000000;background: #E1EEF4;}
+.datagridHorario table tfoot td { padding: 0; font-size: 12px }
+.datagridHorario table tfoot td div{ padding: 2px; }
+
+.datagrid table { border-collapse: collapse; text-align: left; width: 100%; }
+.datagrid {
+	font: normal 12px/150% Arial, Helvetica, sans-serif; 
+	background: #fff; 
+	overflow: hidden; 
+	border: 1px solid #006699; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+	}
+.datagrid table td, 
+.datagrid table th { padding: 3px 10px; }
+.datagrid table thead th {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #004466), color-stop(1, #00557F) );
+	background:-moz-linear-gradient( center top, #004466 5%, #00557F 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#004466', endColorstr='#00557F');
+	background-color:#004466; 
+	color:#FFFFFF; font-size: 15px; 
+	font-weight: bold; 
+	border-left: 1px solid #0070A8; 
+	} 
+.datagrid table thead th:first-child { border: none; }
+.datagrid table tbody td { 
+	color: #000000; 
+	border-left: 1px solid #E1EEF4;
+	font-size: 12px;
+	font-weight: normal; 
+	}
+.datagrid table tbody .alt td { background: #F2F3F7; color: #000000; }
+.datagrid table tbody td:first-child { border-left: none; }
+.datagrid table tbody tr:last-child td { border-bottom: none; }
+.datagrid table tfoot td div { border-top: 1px solid #006699;background: #EBEDF7;} 
+.datagrid table tfoot td { padding: 0; font-size: 12px } 
+.datagrid table tfoot td div{ padding: 2px; }
+.datagrid table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }
+.datagrid table tfoot  li { display: inline; }
+.datagrid table tfoot li a { 
+	text-decoration: none; 
+	display: inline-block;  
+	padding: 2px 8px; 
+	margin: 1px;
+	color: #FFFFFF;
+	border: 1px solid #006699;
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00334D), color-stop(1, #006DA3) );
+	background:-moz-linear-gradient( center top, #00334D 5%, #006DA3 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00334D', endColorstr='#006DA3');
+	background-color:#00334D; 
+}
+.datagrid table tfoot ul.active, 
+.datagrid table tfoot ul a:hover { 
+	text-decoration: none;
+	border-color: #00557F; 
+	color: #FFFFFF; 
+	background: none; 
+	background-color:#006FA6;
+	}
+.datagridNotas table { border-collapse: collapse; text-align: left; width: 100%; } 
+.datagridNotas {font: normal 12px/150% Verdana, Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #8C8C8C; 
+-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.datagridNotas table td, 
+.datagridNotas table th { padding: 3px 5px; }
+.datagridNotas table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8C8C8C), color-stop(1, #0F0E0F) );
+background:-moz-linear-gradient( center top, #8C8C8C 5%, #0F0E0F 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8C8C', endColorstr='#0F0E0F');background-color:#8C8C8C; color:#FFFFFF; 
+font-size: 10px; font-weight: bold; border-left: 1px solid #F2E9FF; } 
+.datagridNotas table thead th:first-child { border: none; }
+.datagridNotas table tbody td { color: #000000; border-left: 1px solid #DBDBDB;font-size: 11px;
+font-weight: normal; }
+.datagridNotas table tbody .alt td { background: #EBEBEB; color: #000000; }
+.datagridNotas table tbody td:first-child { border-left: none; }
+.datagridNotas table tbody tr:last-child td { border-bottom: none; }
+.datagridNotas table tfoot td div { border-top: 1px solid #8C8C8C;background: #EBEBEB;} 
+.datagridNotas table tfoot td { padding: 0; font-size: 12px } 
+.datagridNotas table tfoot td div{ padding: 2px; }
+.datagridNotas table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }
+.datagridNotas table tfoot  li { display: inline; }
+.datagridNotas table tfoot li a { text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;color: #F5F5F5;
+border: 1px solid #070808;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; 
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #302F30), color-stop(1, #7D7D7D) );
+background:-moz-linear-gradient( center top, #302F30 5%, #7D7D7D 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#302F30', endColorstr='#7D7D7D');background-color:#302F30; }
+.datagridNotas table tfoot ul.active, 
+.datagridNotas table tfoot ul a:hover { text-decoration: none;border-color: #000000; color: #F5F5F5; background: none; background-color:#000000;}
+
+div.dhtmlx_window_active, div.dhx_modal_cover_dv { position: fixed !important; }
+
+.TablaHorario table{
+	border-collapse:collapse;margin:1em 0;
+	border-collapse: collapse;
+}
+
+.TablaHorario table, .TablaHorario table th{
+	font:90% Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.TablaHorario table,
+.TablaHorario table td{
+	font:90% Arial, Helvetica, sans-serif;
+	padding: 0px;
+}
+
+.TablaHorario table th,
+.TablaHorario table td{text-align:center;padding:.4em;border:1px solid #000;}
+.TablaHorario table th{background:#328aa4;color:#fff;}
+
+.TablaHorario table tr.even td{background:#e5f1f4;}
+.TablaHorario table tr.odd td{background:#f8fbfc;}
+
+.TablaHorario table th.over,
+.TablaHorario table.TablaHorario table tr.even th.over,
+.TablaHorario table tr.odd th.over{background:#4a98af;}
+.TablaHorario table th.down,
+.TablaHorario table tr.even th.down,
+.TablaHorario table tr.odd th.down{background:#bce774;}
+.TablaHorario th.selected,
+.TablaHorario table tr.even th.selected,
+.TablaHorario table tr.odd th.selected{}
+
+.TablaHorario table td.over,
+.TablaHorario table tr.even td.over,
+.TablaHorario table tr.odd td.over{background:#ecfbd4;}
+.TablaHorario table td.down,
+.TablaHorario table tr.even td.down,
+.TablaHorario table tr.odd td.down{background:#bce774;color:#fff;}
+.TablaHorario table td.selected,
+.TablaHorario table tr.even td.selected,
+.TablaHorario table tr.odd td.selected{background:#bce774;color:#555;}
+.TablaHorario table td.empty,
+.TablaHorario table tr.odd td.empty,
+.TablaHorario table tr.even td.empty{background:#fff;}
