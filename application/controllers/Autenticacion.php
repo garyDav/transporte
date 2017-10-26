@@ -30,7 +30,7 @@ class Autenticacion extends CI_Controller {
     public function inicio()
     {
         $this->load->Model('Autenticacion_model');
-        $this->Autenticacion_model->isLoggedIn();
+        //$this->Autenticacion_model->isLoggedIn();
         $data['vista']   = 'v_inicio';
         $this->load->view('plantilla/header');
         $this->load->view($data['vista'],$data);
